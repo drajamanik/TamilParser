@@ -1,0 +1,4 @@
+SPLIT=true,ENDS=ய்ஆக்அ,DELETE=ய்ஆக்அ,ADD=  
+SPLIT=true,ENDS=ஆக்அ,DELETE=ஆக்அ,ADD= 
+SPLIT=true,ENDS=ய்ஆக்அ,DELETE=ய்ஆக்அ,ADD=  
+SPLIT=true,ENDS=ஆன்அ,DELETE=ஆன்அ,ADD= 

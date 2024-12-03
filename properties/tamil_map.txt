@@ -1,0 +1,68 @@
+CREATE (w:World {name:'உலகம்'})
+CREATE (c:Country {name:'இந்தியா'})
+CREATE (s:State {name:'தமிழ்நாடு'})
+CREATE (d1:District {name:'காஞ்சிபுரம்'})
+CREATE (d2:District {name:'திருவள்ளுர்'})
+CREATE (d3:District {name:'கடலூர்'})
+CREATE (d4:District {name:'விழுப்புரம்'})
+CREATE (d5:District {name:'வேலூர்'})
+CREATE (d6:District {name:'திருவண்ணாமலை'})
+CREATE (d7:District {name:'சேலம்'})
+CREATE (d8:District {name:'நாமக்கல்'})
+CREATE (d9:District {name:'தர்மபுரி'})
+CREATE (d10:District {name:'ஈரோடு'})
+CREATE (d11:District {name:'கோயம்புத்தூர்'})
+CREATE (d12:District {name:'நீலகிரி'})
+CREATE (d13:District {name:'தஞ்சாவூர்'})
+CREATE (d14:District {name:'நாகப்பட்டினம்'})
+CREATE (d15:District {name:'திருவாரூர்'})
+CREATE (d16:District {name:'திருச்சிராப்பள்ளி'})
+CREATE (d17:District {name:'கரூர்'})
+CREATE (d18:District {name:'பெரம்பலூர்'})
+CREATE (d19:District {name:'புதுக்கோட்டை'})
+CREATE (d20:District {name:'மதுரை'})
+CREATE (d21:District {name:'தேனி'})
+CREATE (d22:District {name:'திண்டுக்கல்'})
+CREATE (d23:District {name:'ராமநாதபுரம்'})
+CREATE (d24:District {name:'விருதுநகர்'})
+CREATE (d25:District {name:'சிவகங்கை'})
+CREATE (d26:District {name:'திருநெல்வேலி'})
+CREATE (d27:District {name:'தூத்துக்குடி'})
+CREATE (d28:District {name:'கன்னியாகுமரி'})
+CREATE (d29:District {name:'கிருஷ்ணகரி'})
+CREATE (d30:District {name:'அரியலூர்'})
+CREATE (d31:District {name:'திருப்பூர்'})
+CREATE
+(c)-[:COUNTRY]->(w),
+(s)-[:COUNTRY]->(c),
+(d1)-[:STATE]->(s),
+(d2)-[:STATE]->(s),
+(d3)-[:STATE]->(s),
+(d4)-[:STATE]->(s),
+(d5)-[:STATE]->(s),
+(d6)-[:STATE]->(s),
+(d7)-[:STATE]->(s),
+(d8)-[:STATE]->(s),
+(d9)-[:STATE]->(s),
+(d10)-[:STATE]->(s),
+(d11)-[:STATE]->(s),
+(d12)-[:STATE]->(s),
+(d13)-[:STATE]->(s),
+(d14)-[:STATE]->(s),
+(d15)-[:STATE]->(s),
+(d16)-[:STATE]->(s),
+(d17)-[:STATE]->(s),
+(d18)-[:STATE]->(s),
+(d19)-[:STATE]->(s),
+(d20)-[:STATE]->(s),
+(d21)-[:STATE]->(s),
+(d22)-[:STATE]->(s),
+(d23)-[:STATE]->(s),
+(d24)-[:STATE]->(s),
+(d25)-[:STATE]->(s),
+(d26)-[:STATE]->(s),
+(d27)-[:STATE]->(s),
+(d28)-[:STATE]->(s),
+(d29)-[:STATE]->(s),
+(d30)-[:STATE]->(s),
+(d31)-[:STATE]->(s);
